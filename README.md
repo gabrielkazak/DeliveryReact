@@ -1,12 +1,63 @@
-# React + Vite
+# 🍔 Projeto React - Site de Delivery com Consumo de API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto simula um site de delivery utilizando **React + Vite**, onde os dados de comidas, restaurantes e promoções são consumidos de uma API e exibidos dinamicamente através de componentes React.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React]
+- [Vite]
+- [Bootstrap]
+- [Fetch API]
 
-## Expanding the ESLint configuration
+## 🎯 Objetivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Demonstrar como construir uma aplicação **client-side** moderna com React, consumindo dados de uma API externa e exibindo essas informações de forma interativa e responsiva.
+
+## 📄 Descrição do Projeto
+
+O sistema é composto por diversos **componentes reutilizáveis** que representam:
+
+- Restaurantes recomendados  
+- Lista de tendências (Trending)  
+- Cabeçalho (Header) e rodapé (Footer) da página
+
+Todos os dados apresentados na aplicação são carregados dinamicamente a partir de uma API externa fake (`https://apifakedelivery.vercel.app/`), usando `fetch`.
+
+## ⚙️ Estrutura dos Componentes
+
+- `Header.jsx`: Componente de navegação no topo do site  
+- `Footer.jsx`: Rodapé fixo na parte inferior da tela  
+- `Promo.jsx`: Exibe uma promoção em destaque  
+- `Trending.jsx`: Mostra uma lista de produtos populares  
+- `Restaurants.jsx`: Lista de restaurantes recomendados 
+- `App.jsx`: Componente principal que orquestra a renderização das seções
+
+## 📁 Organização de Pastas (Estrutura Geral)
+
+- `src/`
+  - `Components/`
+    - `Header/` → Componente de cabeçalho
+    - `Footer/` → Rodapé fixo com opção de navegação
+    - `Promo/` → Exibe promoções em destaque
+    - `Trending/` → Lista de produtos populares ou em alta
+    - `Restaurants/` → Mostra os restaurantes recomendados
+  - `App.jsx` → Componente principal que renderiza toda a aplicação
+  - `main.jsx` → Ponto de entrada da aplicação React
+- `public/` → Contém o `index.html` usado como base pelo Vite
+- `.env` → Arquivo de variáveis de ambiente para configuração da API
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://https://github.com/gabrielkazak/DeliveryReact
+   cd DeliveryReact
+   npm install
+   crie um .env na raiz do projeto e adicione as URL alvo
+   npm run dev
+   acesse no navegador localhost:5173
+
+## 👤 Autor
+
+    Gabriel – Estudante de Informática
+    Projeto desenvolvido como prática de utilização de React.
