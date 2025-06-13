@@ -1,0 +1,52 @@
+.test{
+    width: 95%;
+    height: 150px;
+    margin: 10px;
+}
+
+.divisor{
+    width: 3px;
+    height: 50px;
+    background-color: #000;
+}
+
+.trending-card{
+    background-color: #73020C;
+    box-shadow: #590209 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.grey{
+    color: rgba(255, 255, 255, 0.344);
+}
+
+.trending-title{
+    color: #590209;
+}
+
+.imagemTeste{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.foodCard{
+    background-color: #73020C;
+    box-shadow: #590209 6px 6px 0px 0px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 3px;
+    margin-top: 7.5%;
+    height: 80%;
+    background-color: #ffffff;
+}
+
+.bottomText{
+    font-size: 10px !important;
+}

@@ -1,0 +1,14 @@
+.promo{
+    background-color: #73020C;
+    box-shadow: #590209 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.burgerImage{
+    width: 150px;
+    margin-left: 15px;
+}
+
+.btn-value{
+    background-color: #590209;
+}
